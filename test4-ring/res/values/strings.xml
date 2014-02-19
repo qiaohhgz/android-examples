@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">系统铃声操作</string>
+    <string name="ringerLabel">铃声音量</string>
+    <string name="alarmLabel">闹钟音量</string>
+    <string name="callLabel">通话音量</string>
+    <string name="mediaLabel">媒体音量</string>
+    <string name="blueLabel">蓝牙音量</string>
+</resources>
