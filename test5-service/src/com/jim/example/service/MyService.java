@@ -2,8 +2,10 @@ package com.jim.example.service;
 
 import android.app.Service;
 import android.content.Intent;
+import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
+import android.os.Message;
 import android.util.Log;
 
 /**
@@ -23,6 +25,7 @@ public class MyService extends Service {
             intCounter++;
 
             Log.i(getClass().getName(), "Counter:" + intCounter);
+            System.out.println("Counter: " + intCounter);
 
             objHandler.postDelayed(mTasks, 1000);
         }

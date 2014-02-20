@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">test5-service</string>
+    <string name="app_name">后台Service案例</string>
 </resources>
