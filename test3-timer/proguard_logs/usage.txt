@@ -1,0 +1,8 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
+com.jim.example.tiemr.BuildConfig
+com.jim.example.tiemr.R
+com.jim.example.tiemr.R$attr
+com.jim.example.tiemr.R$id
+com.jim.example.tiemr.R$layout
+com.jim.example.tiemr.R$string

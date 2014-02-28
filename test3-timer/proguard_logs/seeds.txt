@@ -1,0 +1,8 @@
+com.jim.example.tiemr.MyActivity
+com.jim.example.tiemr.MyActivity: MyActivity()
+com.jim.example.tiemr.R$id: int cancelBtn
+com.jim.example.tiemr.R$id: int editText
+com.jim.example.tiemr.R$id: int myTxt
+com.jim.example.tiemr.R$id: int startBtn
+com.jim.example.tiemr.R$layout: int main
+com.jim.example.tiemr.R$string: int app_name

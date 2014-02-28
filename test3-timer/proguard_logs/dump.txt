@@ -1,0 +1,710 @@
+_____________________________________________________________________
++ Program class: com/jim/example/tiemr/MyActivity
+  Superclass:    android/app/Activity
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.jim.example.tiemr.MyActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 70):
+  + Integer [2130837504]
+  + Integer [2130968576]
+  + Integer [2130968577]
+  + Integer [2130968578]
+  + Integer [2130968579]
+  + Class [android/app/Activity]
+  + Class [android/widget/Button]
+  + Class [android/widget/EditText]
+  + Class [android/widget/TextView]
+  + Class [com/jim/example/tiemr/MyActivity]
+  + Class [com/jim/example/tiemr/a]
+  + Class [com/jim/example/tiemr/b]
+  + Fieldref [com/jim/example/tiemr/MyActivity.a Lcom/jim/example/tiemr/c;]
+  + Fieldref [com/jim/example/tiemr/MyActivity.b Landroid/widget/EditText;]
+  + Fieldref [com/jim/example/tiemr/MyActivity.c Landroid/widget/TextView;]
+  + Fieldref [com/jim/example/tiemr/MyActivity.d Landroid/widget/Button;]
+  + Fieldref [com/jim/example/tiemr/MyActivity.e Landroid/widget/Button;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Methodref [com/jim/example/tiemr/MyActivity.a ()V]
+  + Methodref [com/jim/example/tiemr/MyActivity.findViewById (I)Landroid/view/View;]
+  + Methodref [com/jim/example/tiemr/MyActivity.setContentView (I)V]
+  + Methodref [com/jim/example/tiemr/a.<init> (Lcom/jim/example/tiemr/MyActivity;)V]
+  + Methodref [com/jim/example/tiemr/b.<init> (Lcom/jim/example/tiemr/MyActivity;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/jim/example/tiemr/MyActivity;)V]
+  + NameAndType [a ()V]
+  + NameAndType [a Lcom/jim/example/tiemr/c;]
+  + NameAndType [b Landroid/widget/EditText;]
+  + NameAndType [c Landroid/widget/TextView;]
+  + NameAndType [d Landroid/widget/Button;]
+  + NameAndType [e Landroid/widget/Button;]
+  + NameAndType [findViewById (I)Landroid/view/View;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [setContentView (I)V]
+  + NameAndType [setOnClickListener (Landroid/view/View$OnClickListener;)V]
+  + Utf8 [()V]
+  + Utf8 [(I)Landroid/view/View;]
+  + Utf8 [(I)V]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/view/View$OnClickListener;)V]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/EditText;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)V]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;Lcom/jim/example/tiemr/c;)Lcom/jim/example/tiemr/c;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/widget/Button;]
+  + Utf8 [Landroid/widget/EditText;]
+  + Utf8 [Landroid/widget/TextView;]
+  + Utf8 [Lcom/jim/example/tiemr/c;]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/widget/Button]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/jim/example/tiemr/MyActivity]
+  + Utf8 [com/jim/example/tiemr/a]
+  + Utf8 [com/jim/example/tiemr/b]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [findViewById]
+  + Utf8 [onCreate]
+  + Utf8 [setContentView]
+  + Utf8 [setOnClickListener]
+
+Fields (count = 5):
+  + Field:        a Lcom/jim/example/tiemr/c;
+    Access flags: 0x2
+      = private com.jim.example.tiemr.c a
+  + Field:        b Landroid/widget/EditText;
+    Access flags: 0x2
+      = private android.widget.EditText b
+  + Field:        c Landroid/widget/TextView;
+    Access flags: 0x2
+      = private android.widget.TextView c
+  + Field:        d Landroid/widget/Button;
+    Access flags: 0x2
+      = private android.widget.Button d
+  + Field:        e Landroid/widget/Button;
+    Access flags: 0x2
+      = private android.widget.Button e
+
+Methods (count = 7):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #18
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x4
+      = protected void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 16, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #19
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] ldc #1
+        + Integer [2130837504]
+      [8] invokevirtual #23
+        + Methodref [com/jim/example/tiemr/MyActivity.setContentView (I)V]
+      [11] aload_0 v0
+      [12] invokespecial #21
+        + Methodref [com/jim/example/tiemr/MyActivity.a ()V]
+      [15] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a()V
+    Access flags: 0x2
+      = private void a()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 83, locals = 1, stack = 4):
+      [0] aload_0 v0
+      [1] aload_0 v0
+      [2] ldc #2
+        + Integer [2130968576]
+      [4] invokevirtual #22
+        + Methodref [com/jim/example/tiemr/MyActivity.findViewById (I)Landroid/view/View;]
+      [7] checkcast #8
+        + Class [android/widget/EditText]
+      [10] putfield #14
+        + Fieldref [com/jim/example/tiemr/MyActivity.b Landroid/widget/EditText;]
+      [13] aload_0 v0
+      [14] aload_0 v0
+      [15] ldc #5
+        + Integer [2130968579]
+      [17] invokevirtual #22
+        + Methodref [com/jim/example/tiemr/MyActivity.findViewById (I)Landroid/view/View;]
+      [20] checkcast #9
+        + Class [android/widget/TextView]
+      [23] putfield #15
+        + Fieldref [com/jim/example/tiemr/MyActivity.c Landroid/widget/TextView;]
+      [26] aload_0 v0
+      [27] aload_0 v0
+      [28] ldc #3
+        + Integer [2130968577]
+      [30] invokevirtual #22
+        + Methodref [com/jim/example/tiemr/MyActivity.findViewById (I)Landroid/view/View;]
+      [33] checkcast #7
+        + Class [android/widget/Button]
+      [36] putfield #16
+        + Fieldref [com/jim/example/tiemr/MyActivity.d Landroid/widget/Button;]
+      [39] aload_0 v0
+      [40] aload_0 v0
+      [41] ldc #4
+        + Integer [2130968578]
+      [43] invokevirtual #22
+        + Methodref [com/jim/example/tiemr/MyActivity.findViewById (I)Landroid/view/View;]
+      [46] checkcast #7
+        + Class [android/widget/Button]
+      [49] putfield #17
+        + Fieldref [com/jim/example/tiemr/MyActivity.e Landroid/widget/Button;]
+      [52] aload_0 v0
+      [53] getfield #16
+        + Fieldref [com/jim/example/tiemr/MyActivity.d Landroid/widget/Button;]
+      [56] new #11
+        + Class [com/jim/example/tiemr/a]
+      [59] dup
+      [60] aload_0 v0
+      [61] invokespecial #24
+        + Methodref [com/jim/example/tiemr/a.<init> (Lcom/jim/example/tiemr/MyActivity;)V]
+      [64] invokevirtual #20
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [67] aload_0 v0
+      [68] getfield #17
+        + Fieldref [com/jim/example/tiemr/MyActivity.e Landroid/widget/Button;]
+      [71] new #12
+        + Class [com/jim/example/tiemr/b]
+      [74] dup
+      [75] aload_0 v0
+      [76] invokespecial #25
+        + Methodref [com/jim/example/tiemr/b.<init> (Lcom/jim/example/tiemr/MyActivity;)V]
+      [79] invokevirtual #20
+        + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
+      [82] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/EditText;
+    Access flags: 0x1008
+      = static synthetic android.widget.EditText a(com.jim.example.tiemr.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #14
+        + Fieldref [com/jim/example/tiemr/MyActivity.b Landroid/widget/EditText;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Lcom/jim/example/tiemr/MyActivity;Lcom/jim/example/tiemr/c;)Lcom/jim/example/tiemr/c;
+    Access flags: 0x1008
+      = static synthetic com.jim.example.tiemr.c a(com.jim.example.tiemr.MyActivity,com.jim.example.tiemr.c)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 2, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] dup_x1
+      [3] putfield #13
+        + Fieldref [com/jim/example/tiemr/MyActivity.a Lcom/jim/example/tiemr/c;]
+      [6] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       b(Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;
+    Access flags: 0x1008
+      = static synthetic com.jim.example.tiemr.c b(com.jim.example.tiemr.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #13
+        + Fieldref [com/jim/example/tiemr/MyActivity.a Lcom/jim/example/tiemr/c;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       c(Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;
+    Access flags: 0x1008
+      = static synthetic android.widget.TextView c(com.jim.example.tiemr.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #15
+        + Fieldref [com/jim/example/tiemr/MyActivity.c Landroid/widget/TextView;]
+      [4] areturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/jim/example/tiemr/a
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.jim.example.tiemr.a extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 62):
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/EditText]
+  + Class [com/jim/example/tiemr/MyActivity]
+  + Class [com/jim/example/tiemr/a]
+  + Class [com/jim/example/tiemr/c]
+  + Class [java/lang/Integer]
+  + Class [java/lang/Object]
+  + Long [1000]
+  + Fieldref [com/jim/example/tiemr/a.a Lcom/jim/example/tiemr/MyActivity;]
+  + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+  + Methodref [com/jim/example/tiemr/MyActivity.a (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/EditText;]
+  + Methodref [com/jim/example/tiemr/MyActivity.a (Lcom/jim/example/tiemr/MyActivity;Lcom/jim/example/tiemr/c;)Lcom/jim/example/tiemr/c;]
+  + Methodref [com/jim/example/tiemr/MyActivity.b (Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+  + Methodref [com/jim/example/tiemr/c.<init> (Lcom/jim/example/tiemr/MyActivity;JJ)V]
+  + Methodref [com/jim/example/tiemr/c.start ()Landroid/os/CountDownTimer;]
+  + Methodref [java/lang/Integer.intValue ()I]
+  + Methodref [java/lang/Integer.valueOf (Ljava/lang/String;)Ljava/lang/Integer;]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/jim/example/tiemr/MyActivity;JJ)V]
+  + NameAndType [a (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/EditText;]
+  + NameAndType [a (Lcom/jim/example/tiemr/MyActivity;Lcom/jim/example/tiemr/c;)Lcom/jim/example/tiemr/c;]
+  + NameAndType [a Lcom/jim/example/tiemr/MyActivity;]
+  + NameAndType [b (Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+  + NameAndType [getText ()Landroid/text/Editable;]
+  + NameAndType [intValue ()I]
+  + NameAndType [start ()Landroid/os/CountDownTimer;]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + NameAndType [valueOf (Ljava/lang/String;)Ljava/lang/Integer;]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/os/CountDownTimer;]
+  + Utf8 [()Landroid/text/Editable;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/EditText;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)V]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;JJ)V]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;Lcom/jim/example/tiemr/c;)Lcom/jim/example/tiemr/c;]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/Integer;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/jim/example/tiemr/MyActivity;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/EditText]
+  + Utf8 [b]
+  + Utf8 [com/jim/example/tiemr/MyActivity]
+  + Utf8 [com/jim/example/tiemr/a]
+  + Utf8 [com/jim/example/tiemr/c]
+  + Utf8 [getText]
+  + Utf8 [intValue]
+  + Utf8 [java/lang/Integer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+  + Utf8 [start]
+  + Utf8 [toString]
+  + Utf8 [valueOf]
+
+Fields (count = 1):
+  + Field:        a Lcom/jim/example/tiemr/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.jim.example.tiemr.MyActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/jim/example/tiemr/MyActivity;)V
+    Access flags: 0x0
+      = a(com.jim.example.tiemr.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/jim/example/tiemr/a.a Lcom/jim/example/tiemr/MyActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #19
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 62, locals = 4, stack = 8):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [com/jim/example/tiemr/a.a Lcom/jim/example/tiemr/MyActivity;]
+      [4] invokestatic #12
+        + Methodref [com/jim/example/tiemr/MyActivity.a (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/EditText;]
+      [7] invokevirtual #11
+        + Methodref [android/widget/EditText.getText ()Landroid/text/Editable;]
+      [10] invokevirtual #20
+        + Methodref [java/lang/Object.toString ()Ljava/lang/String;]
+      [13] astore_2 v2
+      [14] aload_2 v2
+      [15] invokestatic #18
+        + Methodref [java/lang/Integer.valueOf (Ljava/lang/String;)Ljava/lang/Integer;]
+      [18] invokevirtual #17
+        + Methodref [java/lang/Integer.intValue ()I]
+      [21] sipush 1000
+      [24] imul
+      [25] istore_3 v3
+      [26] aload_0 v0
+      [27] getfield #10
+        + Fieldref [com/jim/example/tiemr/a.a Lcom/jim/example/tiemr/MyActivity;]
+      [30] new #5
+        + Class [com/jim/example/tiemr/c]
+      [33] dup
+      [34] aload_0 v0
+      [35] getfield #10
+        + Fieldref [com/jim/example/tiemr/a.a Lcom/jim/example/tiemr/MyActivity;]
+      [38] iload_3 v3
+      [39] i2l
+      [40] ldc2_w #8
+        + Long [1000]
+      [43] invokespecial #15
+        + Methodref [com/jim/example/tiemr/c.<init> (Lcom/jim/example/tiemr/MyActivity;JJ)V]
+      [46] invokestatic #13
+        + Methodref [com/jim/example/tiemr/MyActivity.a (Lcom/jim/example/tiemr/MyActivity;Lcom/jim/example/tiemr/c;)Lcom/jim/example/tiemr/c;]
+      [49] pop
+      [50] aload_0 v0
+      [51] getfield #10
+        + Fieldref [com/jim/example/tiemr/a.a Lcom/jim/example/tiemr/MyActivity;]
+      [54] invokestatic #14
+        + Methodref [com/jim/example/tiemr/MyActivity.b (Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+      [57] invokevirtual #16
+        + Methodref [com/jim/example/tiemr/c.start ()Landroid/os/CountDownTimer;]
+      [60] pop
+      [61] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/jim/example/tiemr/b
+  Superclass:    java/lang/Object
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.jim.example.tiemr.b extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/view/View$OnClickListener]
+
+Constant Pool (count = 53):
+  + String [cancel]
+  + Class [android/view/View$OnClickListener]
+  + Class [android/widget/TextView]
+  + Class [com/jim/example/tiemr/MyActivity]
+  + Class [com/jim/example/tiemr/b]
+  + Class [com/jim/example/tiemr/c]
+  + Class [java/io/PrintStream]
+  + Class [java/lang/Object]
+  + Class [java/lang/System]
+  + Fieldref [com/jim/example/tiemr/b.a Lcom/jim/example/tiemr/MyActivity;]
+  + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/jim/example/tiemr/MyActivity.b (Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+  + Methodref [com/jim/example/tiemr/MyActivity.c (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+  + Methodref [com/jim/example/tiemr/c.cancel ()V]
+  + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/jim/example/tiemr/MyActivity;]
+  + NameAndType [b (Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+  + NameAndType [c (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+  + NameAndType [cancel ()V]
+  + NameAndType [out Ljava/io/PrintStream;]
+  + NameAndType [println (Ljava/lang/String;)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/jim/example/tiemr/MyActivity;]
+  + Utf8 [Ljava/io/PrintStream;]
+  + Utf8 [a]
+  + Utf8 [android/view/View$OnClickListener]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [cancel]
+  + Utf8 [com/jim/example/tiemr/MyActivity]
+  + Utf8 [com/jim/example/tiemr/b]
+  + Utf8 [com/jim/example/tiemr/c]
+  + Utf8 [java/io/PrintStream]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/lang/System]
+  + Utf8 [onClick]
+  + Utf8 [out]
+  + Utf8 [println]
+  + Utf8 [setText]
+
+Fields (count = 1):
+  + Field:        a Lcom/jim/example/tiemr/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.jim.example.tiemr.MyActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/jim/example/tiemr/MyActivity;)V
+    Access flags: 0x0
+      = b(com.jim.example.tiemr.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #10
+        + Fieldref [com/jim/example/tiemr/b.a Lcom/jim/example/tiemr/MyActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #17
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/view/View;)V
+    Access flags: 0x1
+      = public void onClick(android.view.View)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 31, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #10
+        + Fieldref [com/jim/example/tiemr/b.a Lcom/jim/example/tiemr/MyActivity;]
+      [4] invokestatic #13
+        + Methodref [com/jim/example/tiemr/MyActivity.b (Lcom/jim/example/tiemr/MyActivity;)Lcom/jim/example/tiemr/c;]
+      [7] invokevirtual #15
+        + Methodref [com/jim/example/tiemr/c.cancel ()V]
+      [10] aload_0 v0
+      [11] getfield #10
+        + Fieldref [com/jim/example/tiemr/b.a Lcom/jim/example/tiemr/MyActivity;]
+      [14] invokestatic #14
+        + Methodref [com/jim/example/tiemr/MyActivity.c (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+      [17] ldc #1
+        + String [cancel]
+      [19] invokevirtual #12
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [22] getstatic #11
+        + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [25] ldc #1
+        + String [cancel]
+      [27] invokevirtual #16
+        + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [30] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/jim/example/tiemr/c
+  Superclass:    android/os/CountDownTimer
+  Major version: 0x32
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.jim.example.tiemr.c extends android.os.CountDownTimer
+
+Interfaces (count = 0):
+
+Constant Pool (count = 72):
+  + String [)...]
+  + String [finish]
+  + String [?(]
+  + String [???]
+  + Class [android/os/CountDownTimer]
+  + Class [android/widget/TextView]
+  + Class [com/jim/example/tiemr/MyActivity]
+  + Class [com/jim/example/tiemr/c]
+  + Class [java/io/PrintStream]
+  + Class [java/lang/StringBuilder]
+  + Class [java/lang/System]
+  + Long [1000]
+  + Fieldref [com/jim/example/tiemr/c.a Lcom/jim/example/tiemr/MyActivity;]
+  + Fieldref [com/jim/example/tiemr/c.b J]
+  + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+  + Methodref [android/os/CountDownTimer.<init> (JJ)V]
+  + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+  + Methodref [com/jim/example/tiemr/MyActivity.c (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+  + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+  + Methodref [java/lang/StringBuilder.<init> ()V]
+  + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (JJ)V]
+  + NameAndType [a Lcom/jim/example/tiemr/MyActivity;]
+  + NameAndType [append (J)Ljava/lang/StringBuilder;]
+  + NameAndType [append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + NameAndType [b J]
+  + NameAndType [c (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+  + NameAndType [out Ljava/io/PrintStream;]
+  + NameAndType [println (Ljava/lang/String;)V]
+  + NameAndType [setText (Ljava/lang/CharSequence;)V]
+  + NameAndType [toString ()Ljava/lang/String;]
+  + Utf8 [()Ljava/lang/String;]
+  + Utf8 [()V]
+  + Utf8 [(J)Ljava/lang/StringBuilder;]
+  + Utf8 [(J)V]
+  + Utf8 [(JJ)V]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+  + Utf8 [(Lcom/jim/example/tiemr/MyActivity;JJ)V]
+  + Utf8 [(Ljava/lang/CharSequence;)V]
+  + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
+  + Utf8 [(Ljava/lang/String;)V]
+  + Utf8 [)...]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [J]
+  + Utf8 [Lcom/jim/example/tiemr/MyActivity;]
+  + Utf8 [Ljava/io/PrintStream;]
+  + Utf8 [a]
+  + Utf8 [android/os/CountDownTimer]
+  + Utf8 [android/widget/TextView]
+  + Utf8 [append]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/jim/example/tiemr/MyActivity]
+  + Utf8 [com/jim/example/tiemr/c]
+  + Utf8 [finish]
+  + Utf8 [java/io/PrintStream]
+  + Utf8 [java/lang/StringBuilder]
+  + Utf8 [java/lang/System]
+  + Utf8 [onFinish]
+  + Utf8 [onTick]
+  + Utf8 [out]
+  + Utf8 [println]
+  + Utf8 [setText]
+  + Utf8 [toString]
+  + Utf8 [?(]
+  + Utf8 [???]
+
+Fields (count = 2):
+  + Field:        b J
+    Access flags: 0x2
+      = private long b
+  + Field:        a Lcom/jim/example/tiemr/MyActivity;
+    Access flags: 0x1010
+      = final synthetic com.jim.example.tiemr.MyActivity a
+
+Methods (count = 3):
+  - Method:       <init>(Lcom/jim/example/tiemr/MyActivity;JJ)V
+    Access flags: 0x1
+      = public c(com.jim.example.tiemr.MyActivity,long,long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 18, locals = 6, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #14
+        + Fieldref [com/jim/example/tiemr/c.a Lcom/jim/example/tiemr/MyActivity;]
+      [5] aload_0 v0
+      [6] lload_2 v2
+      [7] lload v4
+      [9] invokespecial #17
+        + Methodref [android/os/CountDownTimer.<init> (JJ)V]
+      [12] aload_0 v0
+      [13] lload_2 v2
+      [14] putfield #15
+        + Fieldref [com/jim/example/tiemr/c.b J]
+      [17] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onTick(J)V
+    Access flags: 0x1
+      = public void onTick(long)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 64, locals = 4, stack = 5):
+      [0] new #10
+        + Class [java/lang/StringBuilder]
+      [3] dup
+      [4] invokespecial #21
+        + Methodref [java/lang/StringBuilder.<init> ()V]
+      [7] ldc #4
+        + String [???]
+      [9] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [12] aload_0 v0
+      [13] getfield #15
+        + Fieldref [com/jim/example/tiemr/c.b J]
+      [16] ldc2_w #12
+        + Long [1000]
+      [19] ldiv
+      [20] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+      [23] ldc #3
+        + String [?(]
+      [25] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [28] lload_1 v1
+      [29] ldc2_w #12
+        + Long [1000]
+      [32] ldiv
+      [33] invokevirtual #22
+        + Methodref [java/lang/StringBuilder.append (J)Ljava/lang/StringBuilder;]
+      [36] ldc #1
+        + String [)...]
+      [38] invokevirtual #23
+        + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
+      [41] invokevirtual #24
+        + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
+      [44] astore_3 v3
+      [45] getstatic #16
+        + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [48] aload_3 v3
+      [49] invokevirtual #20
+        + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [52] aload_0 v0
+      [53] getfield #14
+        + Fieldref [com/jim/example/tiemr/c.a Lcom/jim/example/tiemr/MyActivity;]
+      [56] invokestatic #19
+        + Methodref [com/jim/example/tiemr/MyActivity.c (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+      [59] aload_3 v3
+      [60] invokevirtual #18
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [63] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onFinish()V
+    Access flags: 0x1
+      = public void onFinish()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 21, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] getfield #14
+        + Fieldref [com/jim/example/tiemr/c.a Lcom/jim/example/tiemr/MyActivity;]
+      [4] invokestatic #19
+        + Methodref [com/jim/example/tiemr/MyActivity.c (Lcom/jim/example/tiemr/MyActivity;)Landroid/widget/TextView;]
+      [7] ldc #2
+        + String [finish]
+      [9] invokevirtual #18
+        + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
+      [12] getstatic #16
+        + Fieldref [java/lang/System.out Ljava/io/PrintStream;]
+      [15] ldc #2
+        + String [finish]
+      [17] invokevirtual #20
+        + Methodref [java/io/PrintStream.println (Ljava/lang/String;)V]
+      [20] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

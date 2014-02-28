@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">数据库操作</string>
+    <string name="add_name">名称</string>
+    <string name="add_url">主页链接</string>
+    <string name="add_desc">描述</string>
+</resources>
